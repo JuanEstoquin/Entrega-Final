@@ -1,0 +1,31 @@
+@media (min-width:1024px) {
+    header{
+        .menu {
+            position: static;
+            height: auto;
+            background: none;
+            padding: 0;
+            transition: none;
+
+            a {
+                display: inline-block;
+                padding: 0 20px;
+                background: none;
+            }
+        }
+
+        .show-menu {
+            display: none;
+        }
+
+        .hide-menu {
+            display: none;
+        }
+
+        #check:checked~.menu {
+            display: none;
+        }
+    }
+}
+
+
